@@ -110,16 +110,6 @@
     });
   }
 
-  /* ── Impresión: preparar para PDF ── */
-  function setupPrintButton() {
-    const printBtn = document.getElementById('btn-print');
-    if (!printBtn) return;
-
-    printBtn.addEventListener('click', () => {
-      window.print();
-    });
-  }
-
   /* ── Fecha automática ── */
   function setCurrentDate() {
     const dateEl = document.getElementById('dossier-date');
@@ -136,7 +126,6 @@
     setupTooltips();
     setupEcoInteraction();
     setupEtapasToggle();
-    setupPrintButton();
     setCurrentDate();
   });
 
