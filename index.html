@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>AMSAS — Propuesta de Ecosistema Digital | IT Integral Solutions</title>
+
+  <!-- Tipografía -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/sections.css" />
+  <link rel="stylesheet" href="css/print.css" />
+</head>
+
+<body>
+
+  <!-- ── Barra de progreso de lectura ── -->
+  <div class="reading-progress" id="reading-progress" role="progressbar" aria-hidden="true"></div>
+
+  <!-- ════════════════════════════════════════
+       NAVEGACIÓN
+  ════════════════════════════════════════ -->
+  <nav class="dossier-nav" id="main-nav" role="navigation" aria-label="Navegación del dossier">
+    <div class="nav-logo">
+      <img src="assets/logo-horizontal-transparent.png"
+           alt="IT Integral Solutions"
+           class="nav-logo__img" />
+    </div>
+
+    <div class="nav-links" id="nav-links">
+      <a href="#oportunidad" class="nav-link" data-section="oportunidad">Oportunidad</a>
+      <a href="#solucion" class="nav-link" data-section="solucion">Solución</a>
+      <a href="#ecosistema" class="nav-link" data-section="ecosistema">Ecosistema</a>
+      <a href="#roadmap" class="nav-link" data-section="roadmap">Roadmap</a>
+      <a href="#inversion" class="nav-link" data-section="inversion">Inversión</a>
+      <a href="#its" class="nav-link" data-section="its">IT Integral Solutions</a>
+      <a href="#cierre" class="btn btn--gold btn--sm" style="margin-left: var(--space-2);">Hablemos del proyecto</a>
+    </div>
+
+    <div class="nav-logo nav-logo--right">
+      <img src="assets/logo-amsas.png"
+           alt="AMSAS"
+           class="nav-logo__img nav-logo__img--amsas" />
+    </div>
+
+    <span class="nav-badge">
+      <svg width="8" height="8" viewBox="0 0 8 8" fill="currentColor"><circle cx="4" cy="4" r="4"/></svg>
+      Confidencial
+    </span>
+
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ════════════════════════════════════════
+       § 1 — PORTADA
+  ════════════════════════════════════════ -->
+  <section class="section section--portada" id="portada" aria-label="Portada">
+    <div class="portada__geo" aria-hidden="true"></div>
+    <div class="portada__glow" aria-hidden="true"></div>
+    <div class="portada__glow-2" aria-hidden="true"></div>
+
+    <div class="portada__inner">
+      <div class="portada__badges reveal">
+        <span class="portada__confidencial">Documento confidencial</span>
+        <span class="portada__para">
+          <img src="assets/logo-horizontal-transparent.png"
+               alt="IT Integral Solutions"
+               class="portada__logo-its" />
+          &nbsp;para AMSAS
+        </span>
+      </div>
+
+      <h1 class="portada__title reveal reveal--delay-1">
+        Ecosistema digital,<br>
+        comercial y operativo<br>
+        para <span>AMSAS</span>
+      </h1>
+
+      <p class="portada__subtitle reveal reveal--delay-2">
+        Una propuesta estratégica para convertir las dos líneas de negocio de AMSAS
+        en una plataforma digital completa, orientada a la captación de clientes,
+        la gestión comercial y la operación eficiente en Mendoza y la región.
+      </p>
+
+      <div class="flex flex--gap-4 reveal reveal--delay-3" style="flex-wrap: wrap;">
+        <a href="#oportunidad" class="btn btn--gold btn--lg">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+          Ver propuesta completa
+        </a>
+        <button class="btn btn--outline-white btn--lg" id="btn-print">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"/></svg>
+          Exportar PDF
+        </button>
+      </div>
+
+      <div class="portada__meta reveal reveal--delay-4">
+        <span class="portada__meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+          <span id="dossier-date">Agosto 2026</span>
+        </span>
+        <span class="portada__meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Mendoza, Argentina
+        </span>
+        <span class="portada__meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          Versión 2.0 — Uso interno
+        </span>
+      </div>
+    </div>
+
+    <div class="portada__scroll" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 7l5 5 5-5"/></svg>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 2 — OPORTUNIDAD / DIAGNÓSTICO
+  ════════════════════════════════════════ -->
+  <section class="section section--diagnostico section--surface" id="oportunidad" aria-label="Oportunidad">
+    <div class="container">
+
+      <div class="diagnostico-grid">
+        <!-- Columna izquierda: análisis -->
+        <div class="diagnostico__intro">
+          <span class="label label--primary reveal">Punto de partida</span>
+          <h2 class="reveal reveal--delay-1">Lo que vemos<br>en AMSAS</h2>
+          <div class="divider divider--left reveal reveal--delay-2"></div>
+          <p class="reveal reveal--delay-2">
+            AMSAS tiene una visión clara: ser el socio de confianza para empresas, edificios e
+            industrias que necesitan construcción llave en mano y mantenimiento integral en Mendoza.
+            Esa visión es potente. Lo que falta es la infraestructura digital para hacerla visible,
+            captable y operable a escala.
+          </p>
+
+          <div class="diagnostico__bullets reveal reveal--delay-3">
+            <div class="diagnostico-bullet">
+              <span class="diagnostico-bullet__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <h5>Modelo de negocio bien definido</h5>
+                <p>Dos líneas complementarias con demanda real y diferenciación clara en el mercado mendocino.</p>
+              </div>
+            </div>
+            <div class="diagnostico-bullet">
+              <span class="diagnostico-bullet__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <h5>Capacidad técnica instalada</h5>
+                <p>Instalaciones eléctricas, climatización, plomería, obras civiles, pintura y mantenimiento edilicio — un equipo que ya sabe ejecutar.</p>
+              </div>
+            </div>
+            <div class="diagnostico-bullet">
+              <span class="diagnostico-bullet__icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+              </span>
+              <div>
+                <h5>Proceso de trabajo claro</h5>
+                <p>Relevamiento → Planificación → Ejecución → Seguimiento. Un proceso que se puede sistematizar y escalar.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna derecha: oportunidades -->
+        <div>
+          <span class="label label--primary reveal" style="margin-bottom: var(--space-6); display: inline-block;">Oportunidades detectadas</span>
+          <div class="diagnostico__opportunities reveal reveal--delay-1">
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(30,136,229,0.10); color: var(--color-accent);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+              </div>
+              <h5>Sin presencia digital estructurada</h5>
+              <p>Oportunidad de posicionarse como referente en Mendoza antes que la competencia lo haga.</p>
+            </div>
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(30,107,82,0.10); color: var(--color-mant-light);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <h5>Captación de leads sin automatizar</h5>
+              <p>Cada consulta puede convertirse en un lead calificado con el sistema correcto de registro y seguimiento.</p>
+            </div>
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(201,168,76,0.10); color: var(--color-gold);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+              </div>
+              <h5>Gestión operativa manual</h5>
+              <p>Digitalizar la operación reduce errores, tiempos y mejora la percepción de profesionalismo del cliente.</p>
+            </div>
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(13,59,124,0.10); color: var(--color-primary);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              </div>
+              <h5>Sin métricas comerciales</h5>
+              <p>Un pipeline visible permite tomar decisiones con datos: tasa de cierre, costo por lead, revenue por línea.</p>
+            </div>
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(30,136,229,0.10); color: var(--color-accent);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/></svg>
+              </div>
+              <h5>SEO local sin trabajar</h5>
+              <p>Mendoza tiene volumen de búsqueda real para construcción y mantenimiento. Hay posiciones disponibles hoy.</p>
+            </div>
+            <div class="opp-card">
+              <div class="opp-card__icon" style="background: rgba(30,107,82,0.10); color: var(--color-mant-light);">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h5>Fidelización sin sistema</h5>
+              <p>El mantenimiento recurrente es ingreso predecible. Un modelo de contratos lo convierte en negocio escalable.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frase storytelling 1 -->
+      <div class="storytelling-frase reveal" style="margin-top: var(--space-16);">
+        <p>El negocio de AMSAS es sólido. Lo que falta es <em>el sistema que lo hace visible, captable y operable.</em></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 3 — LAS DOS LÍNEAS
+  ════════════════════════════════════════ -->
+  <section class="section section--lineas section--alt" id="solucion" aria-label="Líneas de negocio">
+    <div class="container">
+      <div class="section-header">
+        <span class="label label--primary reveal">Modelo de negocio</span>
+        <h2 class="reveal reveal--delay-1">Un único equipo para construir,<br>mantener y resolver</h2>
+        <p class="reveal reveal--delay-2">
+          AMSAS opera en dos líneas complementarias con lógica comercial diferente pero clientes
+          que pueden transitar de una a la otra. La propuesta potencia cada línea con estrategia,
+          canal y herramientas propias.
+        </p>
+      </div>
+
+      <div class="lineas-grid">
+
+        <!-- Construcción -->
+        <div class="linea-card linea-card--construccion reveal">
+          <span class="linea-card__tag">Línea 01</span>
+          <div class="linea-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="64" height="64"><rect x="2" y="7" width="20" height="15" rx="1"/><path d="M16 7V5a2 2 0 00-4 0v2M8 7V5a2 2 0 00-4 0v2M2 12h20M7 21v-5h5v5"/></svg>
+          </div>
+          <h3>Construcción<br>Llave en Mano</h3>
+          <p>Obras civiles completas, desde el proyecto hasta la entrega. Remodelaciones, ampliaciones e infraestructura para empresas e industrias.</p>
+          <div class="linea-card__services" aria-label="Servicios de construcción">
+            <span class="linea-service-tag">Obras civiles</span>
+            <span class="linea-service-tag">Ampliaciones</span>
+            <span class="linea-service-tag">Remodelaciones</span>
+            <span class="linea-service-tag">Infraestructura</span>
+            <span class="linea-service-tag">Instalaciones eléctricas</span>
+            <span class="linea-service-tag">Pintura profesional</span>
+          </div>
+          <div class="flex flex--gap-4">
+            <span class="badge" style="background: rgba(255,255,255,0.15); color: white; font-size: var(--text-xs); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Ticket alto</span>
+            <span class="badge" style="background: rgba(255,255,255,0.15); color: white; font-size: var(--text-xs); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Ciclo largo</span>
+            <span class="badge" style="background: rgba(255,255,255,0.15); color: white; font-size: var(--text-xs); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">B2B foco</span>
+          </div>
+        </div>
+
+        <!-- Mantenimiento -->
+        <div class="linea-card linea-card--mant reveal reveal--delay-1">
+          <span class="linea-card__tag">Línea 02</span>
+          <div class="linea-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="64" height="64"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Mantenimiento<br>Integral</h3>
+          <p>Contratos de mantenimiento preventivo, correctivo e integral para edificios, empresas e industrias. Servicio continuo, equipo propio y respuesta organizada.</p>
+          <div class="linea-card__services" aria-label="Servicios de mantenimiento">
+            <span class="linea-service-tag">Mantenimiento edilicio</span>
+            <span class="linea-service-tag">Climatización</span>
+            <span class="linea-service-tag">Plomería</span>
+            <span class="linea-service-tag">Electricidad</span>
+            <span class="linea-service-tag">Preventivo programado</span>
+            <span class="linea-service-tag">Respuesta urgente</span>
+          </div>
+          <div class="flex flex--gap-4">
+            <span class="linea-service-tag">Recurrente</span>
+            <span class="linea-service-tag">Contrato anual</span>
+            <span class="linea-service-tag">Alta fidelización</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Ciclo de vida -->
+      <div style="margin-top: var(--space-16);">
+        <div class="section-header" style="margin-bottom: var(--space-8);">
+          <span class="label label--primary reveal">El ciclo completo</span>
+          <h3 class="reveal reveal--delay-1" style="font-size: var(--text-2xl);">Construcción que deriva en mantenimiento.<br>Mantenimiento que genera nuevos proyectos.</h3>
+        </div>
+        <div class="ciclo-container reveal reveal--delay-2">
+          <div class="ciclo-node ciclo-node--construccion">
+            <div class="ciclo-node__circle">🏗️</div>
+            <div class="ciclo-node__label">Nueva consulta</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--construccion">
+            <div class="ciclo-node__circle">📐</div>
+            <div class="ciclo-node__label">Proyecto & presupuesto</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--construccion">
+            <div class="ciclo-node__circle">🔨</div>
+            <div class="ciclo-node__label">Construcción</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--entrega">
+            <div class="ciclo-node__circle">🏁</div>
+            <div class="ciclo-node__label">Entrega</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--mant">
+            <div class="ciclo-node__circle">🔧</div>
+            <div class="ciclo-node__label">Mantenimiento</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--mant">
+            <div class="ciclo-node__circle">🔄</div>
+            <div class="ciclo-node__label">Reforma / Ampliación</div>
+          </div>
+          <div class="ciclo-arrow">→</div>
+          <div class="ciclo-node ciclo-node--construccion">
+            <div class="ciclo-node__circle">🏗️</div>
+            <div class="ciclo-node__label">Nuevo proyecto</div>
+          </div>
+        </div>
+        <p class="reveal" style="text-align: center; color: var(--color-gray-500); font-size: var(--text-sm); margin-top: var(--space-4);">
+          Un cliente de construcción bien atendido tiene alta probabilidad de convertirse en cliente de mantenimiento — y viceversa.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 4 — REDES SOCIALES VS INTENCIÓN COMERCIAL
+  ════════════════════════════════════════ -->
+  <section class="section section--intencion" id="intencion" aria-label="Redes vs Intención comercial">
+    <div class="container">
+      <div class="section-header">
+        <span class="label label--primary reveal">Estrategia de captación</span>
+        <h2 class="reveal reveal--delay-1">Redes sociales vs. intención de compra</h2>
+        <p class="reveal reveal--delay-2">
+          No todas las plataformas tienen el mismo valor comercial para AMSAS.
+          Entender la diferencia define cómo y dónde invertir.
+        </p>
+      </div>
+
+      <!-- La frase -->
+      <div class="frase-destaque reveal">
+        <p>Una consulta de construcción llave en mano vale <em>muchísimo más comercialmente</em> que un "me gusta" de Instagram.</p>
+      </div>
+
+      <div class="intencion-comparison reveal reveal--delay-1">
+        <div class="intencion-col intencion-col--redes">
+          <span class="intencion-col__icon">📱</span>
+          <div class="intencion-col__title">Redes sociales</div>
+          <div class="intencion-col__subtitle">Instagram, Facebook, LinkedIn</div>
+          <ul class="intencion-col__list">
+            <li><span>→</span> El usuario no está buscando activamente</li>
+            <li><span>→</span> La intención es entretenerse, no contratar</li>
+            <li><span>→</span> El contenido compite con decenas de estímulos</li>
+            <li><span>→</span> Útil para branding y presencia de marca</li>
+            <li><span>→</span> Ciclo de conversión largo e indirecto</li>
+            <li><span>→</span> Métricas de vanidad: likes, alcance, seguidores</li>
+          </ul>
+        </div>
+        <div class="intencion-vs">VS</div>
+        <div class="intencion-col intencion-col--google">
+          <span class="intencion-col__icon">🔍</span>
+          <div class="intencion-col__title">Google + Web</div>
+          <div class="intencion-col__subtitle">Search, Maps, SEO local</div>
+          <ul class="intencion-col__list">
+            <li><span>✓</span> El usuario busca exactamente lo que AMSAS ofrece</li>
+            <li><span>✓</span> Alta intención de compra en el momento de la búsqueda</li>
+            <li><span>✓</span> Conversión directa: búsqueda → cotización</li>
+            <li><span>✓</span> SEO local acumula autoridad con el tiempo</li>
+            <li><span>✓</span> Métricas reales: leads, presupuestos, contratos</li>
+            <li><span>✓</span> Google Maps: presencia en búsquedas locales de Mendoza</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Secuencia de captura -->
+      <div style="margin-top: var(--space-12);">
+        <h3 class="reveal" style="text-align: center; font-size: var(--text-xl); color: var(--color-navy); margin-bottom: var(--space-8);">La secuencia de captura completa</h3>
+        <div class="secuencia-flow reveal reveal--delay-1">
+          <div class="secuencia-step">
+            <div class="secuencia-step__icon">📱</div>
+            <div class="secuencia-step__label">Redes</div>
+            <div class="secuencia-step__sub">Presencia & branding</div>
+          </div>
+          <div class="secuencia-arrow">→</div>
+          <div class="secuencia-step">
+            <div class="secuencia-step__icon">🔍</div>
+            <div class="secuencia-step__label">Google</div>
+            <div class="secuencia-step__sub">SEO + Ads locales</div>
+          </div>
+          <div class="secuencia-arrow">→</div>
+          <div class="secuencia-step">
+            <div class="secuencia-step__icon">🌐</div>
+            <div class="secuencia-step__label">Web</div>
+            <div class="secuencia-step__sub">Conversión & presupuesto</div>
+          </div>
+          <div class="secuencia-arrow">→</div>
+          <div class="secuencia-step">
+            <div class="secuencia-step__icon">📊</div>
+            <div class="secuencia-step__label">CRM</div>
+            <div class="secuencia-step__sub">Seguimiento & cierre</div>
+          </div>
+          <div class="secuencia-arrow">→</div>
+          <div class="secuencia-step">
+            <div class="secuencia-step__icon">⚙️</div>
+            <div class="secuencia-step__label">Operación</div>
+            <div class="secuencia-step__sub">OT & ejecución</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 5 — ECOSISTEMA DIGITAL
+  ════════════════════════════════════════ -->
+  <section class="section section--ecosistema section--dark" id="ecosistema" aria-label="Ecosistema digital">
+    <div class="geo-pattern" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="section-header">
+        <span class="label label--gold reveal">Arquitectura de la solución</span>
+        <h2 class="reveal reveal--delay-1" style="color: white;">El ecosistema completo de AMSAS</h2>
+        <p class="reveal reveal--delay-2" style="color: rgba(255,255,255,0.65);">
+          No son herramientas separadas. Son piezas de un único sistema diseñado para captar,
+          convertir y operar. Cada componente alimenta al siguiente.
+        </p>
+      </div>
+
+      <div class="eco-diagram reveal reveal--delay-1">
+        <!-- Centro -->
+        <div class="eco-center">
+          <div class="eco-center__logo">AMSAS</div>
+          <div class="eco-center__sub">IT Integral Solutions</div>
+        </div>
+
+        <!-- Nodos -->
+        <div class="eco-node" data-tooltip="Sitio web optimizado para conversión con dos rutas: Construcción y Mantenimiento">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg>
+          </div>
+          <div class="eco-node__name">Sitio web</div>
+          <div class="eco-node__sub">Conversión dual</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Posicionamiento orgánico y pago para búsquedas de construcción y mantenimiento en Mendoza">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </div>
+          <div class="eco-node__name">SEO & Ads</div>
+          <div class="eco-node__sub">Tráfico calificado</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Pipeline visual de oportunidades: desde la consulta hasta el contrato firmado">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <div class="eco-node__name">CRM</div>
+          <div class="eco-node__sub">Pipeline comercial</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Gestión de órdenes de trabajo, seguimiento de técnicos y registro de intervenciones">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div class="eco-node__name">Órdenes de trabajo</div>
+          <div class="eco-node__sub">Gestión operativa</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Presencia activa en redes con contenido estratégico que genera confianza y autoridad de marca">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </div>
+          <div class="eco-node__name">Redes sociales</div>
+          <div class="eco-node__sub">Branding & contenido</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Propuestas comerciales profesionales con seguimiento automatizado de apertura y respuesta">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <div class="eco-node__name">Presupuestos</div>
+          <div class="eco-node__sub">Propuestas digitales</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Portal de clientes para seguimiento de obras, historial de mantenimientos y comunicación directa">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <div class="eco-node__name">Portal Mi AMSAS</div>
+          <div class="eco-node__sub">Acceso de clientes</div>
+        </div>
+
+        <div class="eco-node" data-tooltip="Dashboard con indicadores clave: leads por canal, tasa de cierre, proyectos activos, contratos de mantenimiento">
+          <div class="eco-node__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <div class="eco-node__name">Analytics</div>
+          <div class="eco-node__sub">Decisiones con datos</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 6 — SITIO WEB + FUNNELS
+  ════════════════════════════════════════ -->
+  <section class="section section--funnels" id="funnels" aria-label="Sitio web y funnels de conversión">
+    <div class="container">
+      <div class="section-header">
+        <span class="label label--primary reveal">Sitio web estratégico</span>
+        <h2 class="reveal reveal--delay-1">Dos caminos, un mismo destino:<br>la consulta calificada</h2>
+        <p class="reveal reveal--delay-2">
+          El sitio web de AMSAS no es un catálogo de servicios. Es una máquina de conversión
+          con dos rutas diferenciadas, diseñadas para el ciclo de cada línea de negocio.
+        </p>
+      </div>
+
+      <div class="funnels-grid reveal reveal--delay-1">
+
+        <!-- Funnel Construcción -->
+        <div class="funnel-card funnel-card--construccion">
+          <div class="funnel-card__header">
+            <span style="font-size: 1.4rem;">🏗️</span>
+            <h3>Funnel — Construcción Llave en Mano</h3>
+          </div>
+          <div class="funnel-stages">
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">1</div>
+              <div class="funnel-stage__text">
+                <strong>Búsqueda en Google / SEO local</strong>
+                "empresa construcción Mendoza", "reforma oficinas Mendoza"
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">2</div>
+              <div class="funnel-stage__text">
+                <strong>Landing de Construcción</strong>
+                Página dedicada con casos de uso, servicios y propuesta de valor
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">3</div>
+              <div class="funnel-stage__text">
+                <strong>Formulario de relevamiento</strong>
+                Tipo de obra, plazos, ubicación, presupuesto estimado
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">4</div>
+              <div class="funnel-stage__text">
+                <strong>Lead ingresa al CRM</strong>
+                Clasificado como "Nueva consulta – Construcción"
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">5</div>
+              <div class="funnel-stage__text">
+                <strong>Contacto + visita de relevamiento</strong>
+                Equipo AMSAS toma contacto y agenda relevamiento en sitio
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">6</div>
+              <div class="funnel-stage__text">
+                <strong>Presupuesto digital enviado</strong>
+                Propuesta profesional con seguimiento de apertura
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Funnel Mantenimiento -->
+        <div class="funnel-card funnel-card--mantenimiento">
+          <div class="funnel-card__header">
+            <span style="font-size: 1.4rem;">🔧</span>
+            <h3>Funnel — Mantenimiento Integral</h3>
+          </div>
+          <div class="funnel-stages">
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">1</div>
+              <div class="funnel-stage__text">
+                <strong>Búsqueda urgente o programada</strong>
+                "servicio mantenimiento edilicio Mendoza", "empresa mantenimiento"
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">2</div>
+              <div class="funnel-stage__text">
+                <strong>Landing de Mantenimiento</strong>
+                Diferenciación entre correctivo, preventivo e integral
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">3</div>
+              <div class="funnel-stage__text">
+                <strong>CTA de contacto inmediato</strong>
+                WhatsApp + formulario rápido para urgencias
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">4</div>
+              <div class="funnel-stage__text">
+                <strong>Lead calificado en CRM</strong>
+                Tipo de servicio, frecuencia, instalación o edificio
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">5</div>
+              <div class="funnel-stage__text">
+                <strong>Propuesta de contrato</strong>
+                Plan correctivo / preventivo / integral según necesidad
+              </div>
+            </div>
+            <div class="funnel-stage">
+              <div class="funnel-stage__num">6</div>
+              <div class="funnel-stage__text">
+                <strong>Contrato firmado → Operación</strong>
+                Ingreso al sistema de OT y portal Mi AMSAS
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 7 — MARKETING & SEO + IA
+  ════════════════════════════════════════ -->
+  <section class="section section--marketing section--surface" id="marketing" aria-label="Marketing y SEO">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Marketing digital</span>
+        <h2 class="reveal reveal--delay-1">Visibilidad digital para<br>un negocio local de alto valor</h2>
+        <p class="reveal reveal--delay-2">
+          La estrategia de marketing de AMSAS no persigue métricas de vanidad.
+          Persigue leads calificados, presupuestos enviados y contratos cerrados.
+        </p>
+      </div>
+
+      <div class="marketing-pillars reveal reveal--delay-1" data-stagger>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          </div>
+          <h4>SEO Local — Mendoza</h4>
+          <p>Posicionamiento orgánico para búsquedas de construcción y mantenimiento en Mendoza y la región. Aparece cuando alguien busca lo que AMSAS ofrece.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h4>Google Maps & Business</h4>
+          <p>Perfil optimizado en Google Business Profile para búsquedas locales con mapa, reseñas y datos de contacto actualizados.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h4>Google Ads Local</h4>
+          <p>Campañas de búsqueda paga orientadas a palabras clave de alta intención. Presupuesto controlado con métricas claras: costo por lead real.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </div>
+          <h4>Contenido estratégico</h4>
+          <p>Publicaciones orientadas a generar autoridad y confianza. Casos de proyectos, tips de mantenimiento, procesos de trabajo. Contenido que educa y convierte.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h4>SEO + Visibilidad en IA</h4>
+          <p>Una presencia digital consistente y bien estructurada mejora cómo AMSAS aparece en resultados de motores de búsqueda y asistentes de inteligencia artificial. No es magia: es consistencia de marca, contenido relevante y datos estructurados.</p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="28" height="28"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.6a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .83h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.9a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <h4>WhatsApp Business integrado</h4>
+          <p>Canal de contacto directo conectado con el CRM para capturar y registrar cada consulta que llega por WhatsApp sin que ninguna se pierda.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 8 — CRM + PRESUPUESTOS + OT
+  ════════════════════════════════════════ -->
+  <section class="section section--crm" id="crm" aria-label="CRM y gestión operativa">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Gestión comercial y operativa</span>
+        <h2 class="reveal reveal--delay-1">Del lead a la orden de trabajo:<br>sin nada que se pierda en el camino</h2>
+        <p class="reveal reveal--delay-2">
+          El CRM y el módulo operativo son el núcleo del sistema. Permiten saber en todo momento
+          en qué estado está cada oportunidad, cada proyecto y cada intervención de mantenimiento.
+        </p>
+      </div>
+
+      <div class="crm-layout reveal reveal--delay-1">
+        <!-- Descripción del pipeline -->
+        <div>
+          <h3 style="font-size: var(--text-xl); color: var(--color-navy); margin-bottom: var(--space-4);">Pipeline comercial</h3>
+          <p style="color: var(--color-gray-600); font-size: var(--text-sm); line-height: 1.7; margin-bottom: var(--space-6);">
+            Cada consulta entra al sistema y recorre las etapas del proceso comercial.
+            En todo momento se sabe qué hay en seguimiento, qué presupuesto está pendiente
+            y cuántas oportunidades se ganaron o perdieron.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: var(--space-3);">
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #6b7280; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Nueva consulta</strong>
+              <span style="color: var(--color-gray-500);">Ingresó por web, WhatsApp o referido</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #3b82f6; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Contactada</strong>
+              <span style="color: var(--color-gray-500);">Se tomó contacto, se agendó relevamiento</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #8b5cf6; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Relevamiento</strong>
+              <span style="color: var(--color-gray-500);">Visita al sitio, relevamiento técnico</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #f59e0b; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Presupuesto</strong>
+              <span style="color: var(--color-gray-500);">Propuesta enviada, en revisión</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #f97316; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Seguimiento</strong>
+              <span style="color: var(--color-gray-500);">En negociación o con preguntas abiertas</span>
+            </div>
+            <div style="display: flex; align-items: center; gap: var(--space-3); font-size: var(--text-sm);">
+              <span style="width: 10px; height: 10px; border-radius: 50%; background: #22c55e; flex-shrink: 0;"></span>
+              <strong style="color: var(--color-navy); min-width: 130px;">Ganada / Perdida</strong>
+              <span style="color: var(--color-gray-500);">Cierre registrado con motivo</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mockups -->
+        <div class="mockup-screens">
+          <!-- CRM mockup -->
+          <div class="mockup-screen">
+            <div class="mockup-screen__bar">
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__title">crm.amsas — Pipeline</div>
+            </div>
+            <div class="mockup-screen__content">
+              <div style="font-size: var(--text-xs); font-weight: var(--font-bold); color: var(--color-gray-400); text-transform: uppercase; letter-spacing: 1px; margin-bottom: var(--space-3);">Oportunidades activas</div>
+              <div class="mockup-pipeline">
+                <div class="pipeline-stage pipeline-stage--nueva">
+                  <div class="pipeline-stage__dot"></div>
+                  Nueva consulta <span style="margin-left: auto; background: rgba(107,114,128,0.15); padding: 1px 6px; border-radius: 8px;">3</span>
+                </div>
+                <div class="pipeline-stage pipeline-stage--contactada">
+                  <div class="pipeline-stage__dot"></div>
+                  Contactada <span style="margin-left: auto; background: rgba(59,130,246,0.15); padding: 1px 6px; border-radius: 8px;">5</span>
+                </div>
+                <div class="pipeline-stage pipeline-stage--relevamiento">
+                  <div class="pipeline-stage__dot"></div>
+                  Relevamiento <span style="margin-left: auto; background: rgba(139,92,246,0.15); padding: 1px 6px; border-radius: 8px;">2</span>
+                </div>
+                <div class="pipeline-stage pipeline-stage--presupuesto">
+                  <div class="pipeline-stage__dot"></div>
+                  Presupuesto enviado <span style="margin-left: auto; background: rgba(245,158,11,0.15); padding: 1px 6px; border-radius: 8px;">4</span>
+                </div>
+                <div class="pipeline-stage pipeline-stage--seguimiento">
+                  <div class="pipeline-stage__dot"></div>
+                  En seguimiento <span style="margin-left: auto; background: rgba(249,115,22,0.15); padding: 1px 6px; border-radius: 8px;">2</span>
+                </div>
+                <div class="pipeline-stage pipeline-stage--ganada">
+                  <div class="pipeline-stage__dot"></div>
+                  Ganadas (mes) <span style="margin-left: auto; background: rgba(34,197,94,0.15); padding: 1px 6px; border-radius: 8px;">6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- OT mockup -->
+          <div class="mockup-screen">
+            <div class="mockup-screen__bar">
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__dot"></div>
+              <div class="mockup-screen__title">OT #00142 — Detalle</div>
+            </div>
+            <div class="mockup-screen__content">
+              <div class="mockup-ot">
+                <div class="ot-field">
+                  <div class="ot-field__label">Cliente</div>
+                  <div class="ot-field__value">Edificio San Martín — Piso 4</div>
+                </div>
+                <div class="ot-field">
+                  <div class="ot-field__label">Tipo de intervención</div>
+                  <div class="ot-field__value">Mantenimiento preventivo — Climatización</div>
+                </div>
+                <div class="ot-field">
+                  <div class="ot-field__label">Técnico asignado</div>
+                  <div class="ot-field__value">Roberto M.</div>
+                </div>
+                <div class="ot-field">
+                  <div class="ot-field__label">Fecha programada</div>
+                  <div class="ot-field__value">15 ago 2026 — 09:00 hs</div>
+                </div>
+                <div class="ot-field">
+                  <div class="ot-field__label">Estado</div>
+                  <div class="ot-field__value">
+                    <span class="ot-status ot-status--proceso">● En proceso</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portal Mi AMSAS -->
+      <div class="reveal" style="margin-top: var(--space-16); padding: var(--space-8); background: linear-gradient(135deg, rgba(13,59,124,0.04) 0%, rgba(30,107,82,0.04) 100%); border-radius: var(--radius-xl); border: 1px solid rgba(13,59,124,0.1);">
+        <div style="display: grid; grid-template-columns: auto 1fr; gap: var(--space-6); align-items: start;">
+          <div style="width: 56px; height: 56px; border-radius: var(--radius-lg); background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" width="26" height="26"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </div>
+          <div>
+            <div style="font-size: var(--text-xs); font-weight: var(--font-bold); letter-spacing: var(--tracking-widest); text-transform: uppercase; color: var(--color-accent); margin-bottom: var(--space-2);">Fase futura — Portal de clientes</div>
+            <h3 style="font-size: var(--text-xl); font-weight: var(--font-bold); color: var(--color-navy); margin: 0 0 var(--space-3);">Mi AMSAS</h3>
+            <p style="font-size: var(--text-sm); color: var(--color-gray-600); line-height: 1.7; margin: 0 0 var(--space-4);">
+              En una etapa posterior, los clientes de AMSAS podrían acceder a un portal propio donde ver el estado de
+              su obra, el historial de mantenimientos realizados, los próximos preventivos programados y comunicarse
+              directamente con el equipo. Un diferencial de fidelización que convierte una relación transaccional en
+              una asociación de largo plazo.
+            </p>
+            <div style="display: flex; flex-wrap: wrap; gap: var(--space-2);">
+              <span style="font-size: var(--text-xs); font-weight: var(--font-semibold); color: var(--color-primary); background: rgba(13,59,124,0.07); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Estado de obra en tiempo real</span>
+              <span style="font-size: var(--text-xs); font-weight: var(--font-semibold); color: var(--color-primary); background: rgba(13,59,124,0.07); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Historial de intervenciones</span>
+              <span style="font-size: var(--text-xs); font-weight: var(--font-semibold); color: var(--color-primary); background: rgba(13,59,124,0.07); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Próximos preventivos</span>
+              <span style="font-size: var(--text-xs); font-weight: var(--font-semibold); color: var(--color-primary); background: rgba(13,59,124,0.07); padding: var(--space-1) var(--space-3); border-radius: var(--radius-full);">Comunicación directa</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 9 — MANTENIMIENTO COMO NEGOCIO RECURRENTE
+  ════════════════════════════════════════ -->
+  <section class="section section--mant-oportunidad" id="mantenimiento" aria-label="Mantenimiento recurrente">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--mant reveal">Línea de mantenimiento</span>
+        <h2 class="reveal reveal--delay-1">El mantenimiento no es un servicio.<br>Es un modelo de ingresos recurrentes.</h2>
+        <p class="reveal reveal--delay-2">
+          Mientras la construcción depende de proyectos puntuales, el mantenimiento genera
+          ingresos predecibles cada mes. Estructurarlo como un producto escalable es
+          una de las oportunidades más claras para AMSAS.
+        </p>
+      </div>
+
+      <!-- Tipos de mantenimiento -->
+      <div class="mant-tipos-grid reveal reveal--delay-1">
+
+        <div class="mant-tipo-card mant-tipo-card--correctivo">
+          <div class="mant-tipo-card__badge">
+            <span>🔴</span> Correctivo
+          </div>
+          <h3>Mantenimiento Correctivo</h3>
+          <p>Respuesta a fallas e incidentes no planificados. El cliente llama cuando algo falla y AMSAS resuelve.</p>
+          <div class="mant-tipo-card__oportunidad">
+            <strong>Oportunidad de evolución</strong>
+            El correctivo puro es reactivo. Oportunidad de establecer tiempos de respuesta garantizados
+            y cobrar por prioridad de atención como diferencial frente a la competencia.
+          </div>
+        </div>
+
+        <div class="mant-tipo-card mant-tipo-card--preventivo">
+          <div class="mant-tipo-card__badge">
+            <span>🟡</span> Preventivo
+          </div>
+          <h3>Mantenimiento Preventivo</h3>
+          <p>Visitas programadas según calendario para revisar, lubricar, ajustar y detectar fallas antes de que ocurran.</p>
+          <div class="mant-tipo-card__oportunidad">
+            <strong>Oportunidad de evolución</strong>
+            Contratos anuales o semestrales con visitas planificadas. Ingreso predecible para AMSAS
+            y tranquilidad para el cliente. Fácil de presupuestar y renovar.
+          </div>
+        </div>
+
+        <div class="mant-tipo-card mant-tipo-card--integral">
+          <div class="mant-tipo-card__badge">
+            <span>🟢</span> Integral
+          </div>
+          <h3>Mantenimiento Integral</h3>
+          <p>Cobertura completa que combina preventivo programado y correctivo incluido. Un contrato, todo cubierto.</p>
+          <div class="mant-tipo-card__oportunidad">
+            <strong>Oportunidad de evolución</strong>
+            El producto de mayor valor agregado. Ideal para edificios, industrias y empresas con múltiples
+            instalaciones. Alta fidelización y baja rotación de clientes.
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Frase storytelling 2 -->
+      <div class="storytelling-frase reveal" style="margin-top: var(--space-12);">
+        <p>Un contrato de mantenimiento integral es, en el fondo, <em>un cliente que ya eligió no irse.</em></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 10 — SEGMENTOS POTENCIALES
+  ════════════════════════════════════════ -->
+  <section class="section section--segmentos" id="segmentos" aria-label="Segmentos potenciales">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Mercado objetivo</span>
+        <h2 class="reveal reveal--delay-1">Segmentos potenciales en Mendoza</h2>
+        <p class="reveal reveal--delay-2">
+          Estos son los perfiles de cliente con mayor probabilidad de necesitar los servicios de AMSAS.
+          No afirmamos que AMSAS ya trabaje con ellos — son el objetivo a captar con la estrategia digital.
+        </p>
+      </div>
+
+      <div class="segmentos-grid reveal reveal--delay-1">
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏢</div>
+          <div>
+            <div class="segmento-card__title">Edificios de oficinas</div>
+            <div class="segmento-card__desc">Administraciones que necesitan mantenimiento preventivo de instalaciones eléctricas, HVAC, plomería y pintura.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏭</div>
+          <div>
+            <div class="segmento-card__title">Industrias y plantas</div>
+            <div class="segmento-card__desc">Empresas industriales que requieren mantenimiento continuo de infraestructura y obras de ampliación.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏪</div>
+          <div>
+            <div class="segmento-card__title">Locales comerciales</div>
+            <div class="segmento-card__desc">Cadenas o comercios con múltiples sucursales que necesitan un proveedor único de mantenimiento.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏨</div>
+          <div>
+            <div class="segmento-card__title">Hoteles y gastronomía</div>
+            <div class="segmento-card__desc">Establecimientos con alta exigencia de funcionamiento continuo y necesidad de respuesta rápida ante fallas.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏗️</div>
+          <div>
+            <div class="segmento-card__title">Desarrolladores inmobiliarios</div>
+            <div class="segmento-card__desc">Proyectos de construcción nueva o remodelación donde AMSAS puede intervenir llave en mano.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏥</div>
+          <div>
+            <div class="segmento-card__title">Instituciones y salud</div>
+            <div class="segmento-card__desc">Clínicas, consultorios y organismos públicos con instalaciones críticas que no pueden fallar.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🍷</div>
+          <div>
+            <div class="segmento-card__title">Bodegas y agroindustria</div>
+            <div class="segmento-card__desc">Sector estratégico de Mendoza con necesidades de mantenimiento especializado de instalaciones.</div>
+          </div>
+        </div>
+        <div class="segmento-card">
+          <div class="segmento-card__icon">🏘️</div>
+          <div>
+            <div class="segmento-card__title">Consorcios y countries</div>
+            <div class="segmento-card__desc">Administraciones de edificios y barrios cerrados que buscan un proveedor confiable de mantenimiento integral.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 11 — ROADMAP 4 FASES
+  ════════════════════════════════════════ -->
+  <section class="section section--roadmap" id="roadmap" aria-label="Roadmap de implementación">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Plan de implementación</span>
+        <h2 class="reveal reveal--delay-1">Cuatro fases. Un ecosistema<br>construido para durar.</h2>
+        <p class="reveal reveal--delay-2">
+          No se construye todo de golpe. Cada fase agrega una capa al sistema
+          y genera valor inmediato antes de pasar a la siguiente.
+        </p>
+      </div>
+
+      <div class="roadmap-grid reveal reveal--delay-1">
+
+        <div class="roadmap-card">
+          <div class="roadmap-card__num">01</div>
+          <div class="roadmap-card__fase">Fase 1 — Fundación</div>
+          <div class="roadmap-card__title">Presencia digital profesional</div>
+          <ul class="roadmap-card__items">
+            <li>Sitio web con las dos líneas de negocio</li>
+            <li>Identidad visual consistente</li>
+            <li>Formularios de captación funcionales</li>
+            <li>Google Business Profile optimizado</li>
+            <li>Perfiles de redes sociales activos</li>
+          </ul>
+          <div class="roadmap-card__tiempo">⏱ Semanas 1–4</div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-card__num">02</div>
+          <div class="roadmap-card__fase">Fase 2 — Captación</div>
+          <div class="roadmap-card__title">Marketing & primeros leads</div>
+          <ul class="roadmap-card__items">
+            <li>SEO local activo en Mendoza</li>
+            <li>Primera campaña Google Ads</li>
+            <li>CRM configurado con pipeline</li>
+            <li>Plantilla de presupuesto digital</li>
+            <li>WhatsApp Business integrado</li>
+          </ul>
+          <div class="roadmap-card__tiempo">⏱ Semanas 5–8</div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-card__num">03</div>
+          <div class="roadmap-card__fase">Fase 3 — Operación</div>
+          <div class="roadmap-card__title">Gestión interna digitalizada</div>
+          <ul class="roadmap-card__items">
+            <li>Sistema de órdenes de trabajo</li>
+            <li>Asignación de técnicos</li>
+            <li>Historial por cliente y por instalación</li>
+            <li>Reportes de actividad mensual</li>
+            <li>Métricas de tasa de cierre</li>
+          </ul>
+          <div class="roadmap-card__tiempo">⏱ Mes 3–4</div>
+        </div>
+
+        <div class="roadmap-card">
+          <div class="roadmap-card__num">04</div>
+          <div class="roadmap-card__fase">Fase 4 — Escala</div>
+          <div class="roadmap-card__title">Fidelización y crecimiento</div>
+          <ul class="roadmap-card__items">
+            <li>Portal Mi AMSAS para clientes</li>
+            <li>Automatizaciones de seguimiento</li>
+            <li>Contratos de mantenimiento sistematizados</li>
+            <li>Análisis de datos y optimización continua</li>
+            <li>Expansión de canales y mercados</li>
+          </ul>
+          <div class="roadmap-card__tiempo">⏱ Mes 5 en adelante</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 12 — MÉTRICAS
+  ════════════════════════════════════════ -->
+  <section class="section section--metricas" id="metricas" aria-label="Métricas de éxito">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Lo que se mide</span>
+        <h2 class="reveal reveal--delay-1">Métricas reales, no métricas de vanidad</h2>
+        <p class="reveal reveal--delay-2">
+          El éxito del ecosistema digital de AMSAS se mide con indicadores que impactan
+          directamente en el negocio — no en seguidores ni en visualizaciones.
+        </p>
+      </div>
+
+      <div class="metricas-grid reveal reveal--delay-1">
+
+        <div class="metrica-card">
+          <div class="metrica-card__label">Captación</div>
+          <div class="metrica-card__title">Leads calificados por canal</div>
+          <div class="metrica-card__desc">Cuántas consultas llegaron por Google, web o WhatsApp. Por línea de negocio: Construcción vs. Mantenimiento.</div>
+        </div>
+
+        <div class="metrica-card" style="border-color: var(--color-gold);">
+          <div class="metrica-card__label">Conversión</div>
+          <div class="metrica-card__title">Tasa de cierre comercial</div>
+          <div class="metrica-card__desc">Porcentaje de presupuestos enviados que se convierten en proyectos o contratos firmados.</div>
+        </div>
+
+        <div class="metrica-card" style="border-color: var(--color-mant);">
+          <div class="metrica-card__label">Recurrencia</div>
+          <div class="metrica-card__title">Contratos de mantenimiento activos</div>
+          <div class="metrica-card__desc">Cantidad de clientes con contratos vigentes. Indicador de ingreso predecible y fidelización real.</div>
+        </div>
+
+        <div class="metrica-card">
+          <div class="metrica-card__label">Eficiencia operativa</div>
+          <div class="metrica-card__title">Tiempo de respuesta a OTs</div>
+          <div class="metrica-card__desc">Tiempo entre la apertura de una orden de trabajo y su resolución. Mejora directa en la experiencia del cliente.</div>
+        </div>
+
+        <div class="metrica-card" style="border-color: var(--color-gold);">
+          <div class="metrica-card__label">Marketing</div>
+          <div class="metrica-card__title">Costo por lead real</div>
+          <div class="metrica-card__desc">Inversión en publicidad dividida por leads generados. Permite saber qué canal convierte mejor y optimizar el gasto.</div>
+        </div>
+
+        <div class="metrica-card" style="border-color: var(--color-mant);">
+          <div class="metrica-card__label">Visibilidad</div>
+          <div class="metrica-card__title">Posición orgánica en Mendoza</div>
+          <div class="metrica-card__desc">Evolución del posicionamiento en buscadores para palabras clave locales relevantes. Se mide con tendencia, no con promesas.</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 13 — INVERSIÓN
+  ════════════════════════════════════════ -->
+  <section class="section section--inversion" id="inversion" aria-label="Inversión y planes">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Inversión</span>
+        <h2 class="reveal reveal--delay-1">Tres niveles de inversión inicial.<br>Escalá cuando el sistema te lo pida.</h2>
+        <p class="reveal reveal--delay-2">
+          La propuesta está diseñada para que AMSAS empiece por donde tiene más sentido según
+          su momento actual, y escale a medida que el sistema genera resultados.
+        </p>
+      </div>
+
+      <div class="planes-grid reveal reveal--delay-1">
+
+        <!-- Plan START -->
+        <div class="plan-card">
+          <div class="plan-card__name">START</div>
+          <div class="plan-card__price">
+            <span class="currency">USD</span>
+            <span class="amount">1.800</span>
+          </div>
+          <div class="plan-card__subtitle">Inversión única de implementación</div>
+          <div class="plan-card__divider"></div>
+          <ul class="plan-card__features">
+            <li>Sitio web profesional (2 líneas de negocio)</li>
+            <li>Identidad visual básica</li>
+            <li>Google Business Profile optimizado</li>
+            <li>Formularios de captación</li>
+            <li>CRM básico con pipeline</li>
+            <li>WhatsApp Business integrado</li>
+            <li>Capacitación del equipo</li>
+          </ul>
+          <a href="#cierre" class="plan-card__cta">Quiero el Start</a>
+        </div>
+
+        <!-- Plan GROWTH (recomendado) -->
+        <div class="plan-card plan--recomendado">
+          <div class="plan-card__name">GROWTH</div>
+          <div class="plan-card__price">
+            <span class="currency">USD</span>
+            <span class="amount">4.200</span>
+          </div>
+          <div class="plan-card__subtitle">Inversión única de implementación</div>
+          <div class="plan-card__divider"></div>
+          <ul class="plan-card__features">
+            <li>Todo lo del plan Start</li>
+            <li>SEO local activado (Mendoza)</li>
+            <li>Primera campaña Google Ads</li>
+            <li>Sistema de presupuestos digitales</li>
+            <li>CRM completo con automatizaciones</li>
+            <li>Contenido para redes (primer mes)</li>
+            <li>Dashboard de métricas</li>
+            <li>Soporte prioritario 3 meses</li>
+          </ul>
+          <a href="#cierre" class="plan-card__cta">Quiero el Growth</a>
+        </div>
+
+        <!-- Plan OPERATIONS -->
+        <div class="plan-card">
+          <div class="plan-card__name">OPERATIONS</div>
+          <div class="plan-card__price">
+            <span class="currency">USD</span>
+            <span class="amount" style="font-size: 2rem;">desde 6.500</span>
+          </div>
+          <div class="plan-card__subtitle">Inversión única de implementación</div>
+          <div class="plan-card__divider"></div>
+          <ul class="plan-card__features">
+            <li>Todo lo del plan Growth</li>
+            <li>Sistema de órdenes de trabajo (OT)</li>
+            <li>Módulo de mantenimiento recurrente</li>
+            <li>Historial por cliente e instalación</li>
+            <li>Reportes de actividad automatizados</li>
+            <li>Portal Mi AMSAS (versión básica)</li>
+            <li>Integraciones personalizadas</li>
+            <li>Soporte extendido 6 meses</li>
+          </ul>
+          <a href="#cierre" class="plan-card__cta">Quiero el Operations</a>
+        </div>
+
+      </div>
+
+      <div class="recurrencia-nota reveal" style="margin-top: var(--space-8);">
+        <strong>Costos recurrentes opcionales:</strong>
+        Infraestructura y hosting desde <strong>USD 150/mes</strong> ·
+        Gestión de pauta publicitaria desde <strong>USD 250/mes</strong> (presupuesto de medios aparte)
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 14 — IT INTEGRAL SOLUTIONS
+  ════════════════════════════════════════ -->
+  <section class="section section--portfolio-its" id="its" aria-label="IT Integral Solutions">
+    <div class="container">
+
+      <!-- Hero brand header -->
+      <div class="its-brand-hero reveal">
+        <span class="label label--gold" style="color: var(--color-gold); margin-bottom: var(--space-6); display:inline-block;">Quiénes somos</span>
+        <div class="its-brand-hero__logo-wrap">
+          <img src="assets/logo-horizontal-transparent.png"
+               alt="IT Integral Solutions"
+               class="its-brand-hero__logo" />
+        </div>
+        <p class="its-brand-hero__tagline">
+          Tecnología diseñada alrededor de tu negocio.<br>
+          <strong>No adaptamos tu empresa al software — diseñamos el software alrededor de cómo trabaja tu empresa.</strong>
+        </p>
+        <div class="its-brand-hero__stats">
+          <div class="its-brand-hero__stat">
+            <span class="its-brand-hero__stat-value">2</span>
+            <span class="its-brand-hero__stat-label">Productos propios<br>en producción</span>
+          </div>
+          <div class="its-brand-hero__stat-divider"></div>
+          <div class="its-brand-hero__stat">
+            <span class="its-brand-hero__stat-value">100%</span>
+            <span class="its-brand-hero__stat-label">Soluciones a medida,<br>sin plantillas genéricas</span>
+          </div>
+          <div class="its-brand-hero__stat-divider"></div>
+          <div class="its-brand-hero__stat">
+            <span class="its-brand-hero__stat-value">Mendoza</span>
+            <span class="its-brand-hero__stat-label">Con conocimiento<br>del mercado local</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Frase de posicionamiento -->
+      <div class="frase-destaque reveal" style="background: rgba(255,255,255,0.05); border-color: var(--color-gold); margin-bottom: var(--space-12);">
+        <p style="color: white;">"No adaptamos tu empresa al software. <em style="color: var(--color-gold);">Diseñamos tecnología alrededor de cómo trabaja tu empresa.</em>"</p>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="section-header" style="margin-bottom: var(--space-8);">
+        <span class="label reveal" style="color: rgba(255,255,255,0.5); font-size: var(--text-xs); letter-spacing: var(--tracking-widest);">Proyectos de referencia</span>
+        <h3 class="reveal reveal--delay-1" style="color: white; font-size: var(--text-2xl);">Lo que construimos para otros sectores</h3>
+      </div>
+
+      <div class="portfolio-its-grid reveal reveal--delay-1">
+
+        <!-- TASS -->
+        <div class="portfolio-its-card">
+          <div class="portfolio-its-card__header">
+            <div class="portfolio-its-card__logo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M21 16v-2l-8-5V3.5a1.5 1.5 0 00-3 0V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z"/></svg>
+            </div>
+            <div>
+              <div class="portfolio-its-card__title">TASS</div>
+              <div class="portfolio-its-card__tagline">Travel Agency Sales System</div>
+            </div>
+          </div>
+          <div class="portfolio-its-card__body">
+            <p class="portfolio-its-card__desc">
+              Sistema CRM especializado para agencias de viajes. Gestión completa del ciclo de venta:
+              desde la consulta del viajero hasta el cierre del paquete, seguimiento post-venta
+              y métricas de performance por asesor. Diseñado específicamente para la lógica
+              y el vocabulario del sector turístico.
+            </p>
+            <div class="portfolio-its-card__features">
+              <span class="portfolio-its-feature">CRM vertical</span>
+              <span class="portfolio-its-feature">Pipeline de ventas</span>
+              <span class="portfolio-its-feature">Gestión de consultas</span>
+              <span class="portfolio-its-feature">Reportes de performance</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- BeautyFlow -->
+        <div class="portfolio-its-card">
+          <div class="portfolio-its-card__header" style="background: linear-gradient(135deg, #6d28d9, #a855f7);">
+            <div class="portfolio-its-card__logo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="24" height="24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+            </div>
+            <div>
+              <div class="portfolio-its-card__title">BeautyFlow</div>
+              <div class="portfolio-its-card__tagline">Gestión integral para centros de estética</div>
+            </div>
+          </div>
+          <div class="portfolio-its-card__body">
+            <p class="portfolio-its-card__desc">
+              Plataforma de gestión diseñada para salones de belleza y centros de estética.
+              Turnos online, historial de tratamientos por cliente, recordatorios automáticos,
+              facturación y reportes de ocupación. Pensado desde la operatoria real del sector,
+              no desde una plantilla genérica.
+            </p>
+            <div class="portfolio-its-card__features">
+              <span class="portfolio-its-feature">Turnos online</span>
+              <span class="portfolio-its-feature">Historial de clientes</span>
+              <span class="portfolio-its-feature">Recordatorios automáticos</span>
+              <span class="portfolio-its-feature">Reportes de ocupación</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Por qué IT Integral Solutions -->
+      <div style="margin-top: var(--space-16);">
+        <div class="section-header" style="margin-bottom: var(--space-8);">
+          <h3 class="reveal" style="color: white; font-size: var(--text-2xl);">Por qué IT Integral Solutions para AMSAS</h3>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-5);" class="reveal reveal--delay-1">
+          <div style="padding: var(--space-6); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 1.5rem; margin-bottom: var(--space-3);">🎯</div>
+            <div style="font-weight: var(--font-bold); color: white; margin-bottom: var(--space-2);">Foco en el negocio, no en la tecnología</div>
+            <div style="font-size: var(--text-sm); color: rgba(255,255,255,0.55); line-height: 1.6;">Primero entendemos cómo trabaja AMSAS. Luego diseñamos el sistema que lo soporta.</div>
+          </div>
+          <div style="padding: var(--space-6); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 1.5rem; margin-bottom: var(--space-3);">🔧</div>
+            <div style="font-weight: var(--font-bold); color: white; margin-bottom: var(--space-2);">Ecosistema integrado, no piezas separadas</div>
+            <div style="font-size: var(--text-sm); color: rgba(255,255,255,0.55); line-height: 1.6;">Web, CRM, OT y métricas hablan entre sí. No son herramientas independientes que hay que conectar.</div>
+          </div>
+          <div style="padding: var(--space-6); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 1.5rem; margin-bottom: var(--space-3);">📈</div>
+            <div style="font-weight: var(--font-bold); color: white; margin-bottom: var(--space-2);">Construimos para escalar</div>
+            <div style="font-size: var(--text-sm); color: rgba(255,255,255,0.55); line-height: 1.6;">Cada fase agrega una capa. No se rompe lo que ya funciona y cada mejora se construye sobre la anterior.</div>
+          </div>
+          <div style="padding: var(--space-6); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.08);">
+            <div style="font-size: 1.5rem; margin-bottom: var(--space-3);">🤝</div>
+            <div style="font-weight: var(--font-bold); color: white; margin-bottom: var(--space-2);">Relación de largo plazo</div>
+            <div style="font-size: var(--text-sm); color: rgba(255,255,255,0.55); line-height: 1.6;">No entregamos un proyecto y desaparecemos. Somos el equipo tecnológico de AMSAS mientras crece.</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 15 — DIFERENCIAL
+  ════════════════════════════════════════ -->
+  <section class="section section--diferencial" id="diferencial" aria-label="Diferencial">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">El diferencial</span>
+        <h2 class="reveal reveal--delay-1">Un ecosistema integrado vs.<br>piezas separadas</h2>
+        <p class="reveal reveal--delay-2">
+          La diferencia no es solo de precio. Es de enfoque, integración y coherencia.
+        </p>
+      </div>
+
+      <div class="reveal reveal--delay-1" style="overflow-x: auto;">
+        <table class="diferencial-table">
+          <thead>
+            <tr>
+              <th>Capacidad</th>
+              <th>Proveedor genérico</th>
+              <th>IT Integral Solutions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Diseño orientado al negocio de AMSAS</td>
+              <td><span class="cross">✗ Plantilla estándar</span></td>
+              <td><span class="check">✓ A medida</span></td>
+            </tr>
+            <tr>
+              <td>Dos funnels diferenciados (Construcción + Mant.)</td>
+              <td><span class="cross">✗</span></td>
+              <td><span class="check">✓</span></td>
+            </tr>
+            <tr>
+              <td>CRM integrado con el sitio web</td>
+              <td><span class="cross">✗ Herramientas separadas</span></td>
+              <td><span class="check">✓ Un sistema</span></td>
+            </tr>
+            <tr>
+              <td>Sistema de órdenes de trabajo</td>
+              <td><span class="cross">✗</span></td>
+              <td><span class="check">✓ Fase 3</span></td>
+            </tr>
+            <tr>
+              <td>SEO local Mendoza + Google Maps</td>
+              <td><span class="cross">✗ Sin estrategia local</span></td>
+              <td><span class="check">✓ Estrategia local</span></td>
+            </tr>
+            <tr>
+              <td>Métricas de negocio (leads, cierre, contratos)</td>
+              <td><span class="cross">✗ Solo métricas web</span></td>
+              <td><span class="check">✓ KPIs de negocio</span></td>
+            </tr>
+            <tr>
+              <td>Evolución por fases sin perder lo construido</td>
+              <td><span class="cross">✗ Hay que rehacer</span></td>
+              <td><span class="check">✓ Escalable</span></td>
+            </tr>
+            <tr>
+              <td>Portal de clientes (Mi AMSAS)</td>
+              <td><span class="cross">✗</span></td>
+              <td><span class="check">✓ Fase 4</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 16 — PRÓXIMOS PASOS
+  ════════════════════════════════════════ -->
+  <section class="section section--surface" id="proximos" aria-label="Próximos pasos">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="label label--primary reveal">Para arrancar</span>
+        <h2 class="reveal reveal--delay-1">El primer paso es simple</h2>
+        <p class="reveal reveal--delay-2">
+          Una reunión de una hora para alinear prioridades, responder preguntas
+          y definir por dónde empezar. Sin compromisos.
+        </p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: var(--space-5);" class="reveal reveal--delay-1">
+        <div style="text-align: center; padding: var(--space-8) var(--space-6);">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); color: white; font-weight: 800; font-size: 1.2rem;">1</div>
+          <h4 style="color: var(--color-navy); margin-bottom: var(--space-2);">Reunión de diagnóstico</h4>
+          <p style="color: var(--color-gray-500); font-size: var(--text-sm); line-height: 1.6;">Presentamos la propuesta, respondemos preguntas y entendemos el momento actual de AMSAS.</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-8) var(--space-6);">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); color: white; font-weight: 800; font-size: 1.2rem;">2</div>
+          <h4 style="color: var(--color-navy); margin-bottom: var(--space-2);">Definición de la Fase 1</h4>
+          <p style="color: var(--color-gray-500); font-size: var(--text-sm); line-height: 1.6;">Acordamos alcance, tiempos y presupuesto exacto para la primera etapa del proyecto.</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-8) var(--space-6);">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--gradient-primary); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); color: white; font-weight: 800; font-size: 1.2rem;">3</div>
+          <h4 style="color: var(--color-navy); margin-bottom: var(--space-2);">Arranque en semanas</h4>
+          <p style="color: var(--color-gray-500); font-size: var(--text-sm); line-height: 1.6;">Con el acuerdo en mano, el equipo de IT Integral Solutions empieza en menos de dos semanas.</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-8) var(--space-6);">
+          <div style="width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, var(--color-gold), #e8c060); display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-4); color: white; font-size: 1.2rem;">✓</div>
+          <h4 style="color: var(--color-navy); margin-bottom: var(--space-2);">Resultados visibles</h4>
+          <p style="color: var(--color-gray-500); font-size: var(--text-sm); line-height: 1.6;">En 4 semanas, AMSAS tiene presencia digital profesional activa y el sistema de captación funcionando.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       § 17 — CIERRE / CTA FINAL
+  ════════════════════════════════════════ -->
+  <section class="section section--cierre" id="cierre" aria-label="Cierre y llamada a la acción">
+    <div class="container" style="position: relative; z-index: 1;">
+
+      <div class="section-header" style="max-width: 740px; margin: 0 auto;">
+        <h2 class="reveal" style="color: white; font-size: clamp(1.8rem, 4vw, 3rem); line-height: 1.2;">
+          El proyecto ya está pensado.<br>
+          Ahora hay que convertirlo en<br>
+          <span style="color: var(--color-gold);">una empresa preparada para vender y crecer.</span>
+        </h2>
+      </div>
+
+      <div class="reveal reveal--delay-1" style="text-align: center; margin-top: var(--space-8);">
+        <p style="color: rgba(255,255,255,0.7); font-size: var(--text-lg); margin-bottom: var(--space-10); max-width: 600px; margin-left: auto; margin-right: auto;">
+          La primera etapa puede estar activa en cuatro semanas.
+          Lo que hoy es una oportunidad, mañana puede ser la ventaja
+          que define quién lidera el mercado en Mendoza.
+        </p>
+
+        <div class="flex flex--gap-4" style="flex-wrap: wrap; justify-content: center;">
+          <a href="mailto:it.integral.solution@gmail.com?subject=Propuesta%20AMSAS%20—%20Construcción%20de%20la%20primera%20etapa"
+             class="btn btn--gold btn--lg">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Construyamos la primera etapa
+          </a>
+          <button class="btn btn--outline-white btn--lg" id="btn-print-cierre"
+                  onclick="window.print()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;"><path d="M6 9V2h12v7M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2M6 14h12v8H6z"/></svg>
+            Descargar propuesta
+          </button>
+        </div>
+      </div>
+
+      <!-- Frase storytelling 3 -->
+      <div class="storytelling-frase storytelling-frase--dark reveal" style="margin-top: var(--space-16);">
+        <p>Construir sin visibilidad digital es como construir sin planos.<br>
+        <em>El sistema es la diferencia entre crecer por recomendación y crecer por diseño.</em></p>
+      </div>
+
+      <div class="cierre-firma reveal">
+        <strong>AMSAS &nbsp;×&nbsp; IT Integral Solutions</strong>
+        <span>2026 · Propuesta confidencial</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════════════════════════════════
+       FOOTER
+  ════════════════════════════════════════ -->
+  <footer class="dossier-footer" role="contentinfo">
+
+    <!-- Barra dorada superior -->
+    <div class="footer-gold-bar"></div>
+
+    <!-- Cuerpo: IT | sep | AMSAS -->
+    <div class="footer-body">
+
+      <!-- Columna izquierda: IT Integral Solutions -->
+      <div class="footer-col-it">
+        <img src="assets/logo-horizontal-transparent.png"
+             alt="IT Integral Solutions"
+             class="footer-it-logo" />
+        <div class="footer-it-tagline">Soluciones digitales para constructoras</div>
+        <div class="footer-it-contacts">
+          <a href="https://wa.me/5491133634277" class="footer-it-contact">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="15" height="15"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.115.554 4.1 1.523 5.824L.057 23.428a.5.5 0 00.515.572l5.797-.966A11.95 11.95 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.907 0-3.695-.503-5.241-1.381l-.375-.219-3.882.647.642-3.754-.242-.389A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+            +54 9 11 3363-4277
+          </a>
+          <a href="mailto:it.integral.solution@gmail.com" class="footer-it-contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            it.integral.solution@gmail.com
+          </a>
+        </div>
+      </div>
+
+      <!-- Separador central -->
+      <div class="footer-center-sep" aria-hidden="true"></div>
+
+      <!-- Columna derecha: AMSAS -->
+      <div class="footer-col-amsas">
+        <div class="footer-amsas-label">Propuesta preparada para</div>
+        <img src="assets/logo-amsas.png"
+             alt="AMSAS Arquitectura y Construcción"
+             class="footer-amsas-logo" />
+      </div>
+
+    </div>
+
+    <!-- Barra legal inferior -->
+    <div class="footer-legal-bar">
+      <span>Documento confidencial &nbsp;·&nbsp; Propuesta comercial exclusiva &nbsp;·&nbsp; No distribuir sin autorización</span>
+      <span>IT Integral Solutions &nbsp;×&nbsp; AMSAS &nbsp;·&nbsp; 2026</span>
+    </div>
+
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Volver al inicio">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- Scripts -->
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

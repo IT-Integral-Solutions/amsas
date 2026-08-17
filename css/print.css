@@ -1,0 +1,187 @@
+/* ==========================================================================
+   AMSAS Dossier — Print / Export PDF Styles
+   ========================================================================== */
+
+@media print {
+  /* ── Reset pantalla ── */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+
+  /* ── Ocultar UI de navegación ── */
+  .dossier-nav,
+  .reading-progress,
+  .back-to-top,
+  .portada__scroll {
+    display: none !important;
+  }
+
+  /* ── Resetear animaciones ── */
+  .reveal {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
+  /* ── Body base ── */
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+    background: white !important;
+    color: #1C2B3A !important;
+  }
+
+  /* ── Secciones: forzar salto de página ── */
+  .section {
+    padding: 24pt 36pt !important;
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .section--portada {
+    page-break-after: always;
+    break-after: page;
+    min-height: 100vh !important;
+  }
+
+  .section--lineas,
+  .section--etapas,
+  .section--proximos,
+  .section--cta-final {
+    page-break-before: always;
+    break-before: page;
+  }
+
+  /* ── Forzar colores de fondo en secciones oscuras ── */
+  .section--dark,
+  .section--portada,
+  .section--ecosistema,
+  .section--crm,
+  .section--cta-final {
+    background: #0A2647 !important;
+    color: white !important;
+  }
+
+  .section--dark h1,
+  .section--dark h2,
+  .section--dark h3,
+  .section--dark p,
+  .section--portada h1,
+  .section--portada h2,
+  .section--portada p,
+  .section--ecosistema h2,
+  .section--ecosistema p,
+  .section--crm h2,
+  .section--crm p {
+    color: white !important;
+  }
+
+  /* ── Tipografía ── */
+  h1 { font-size: 28pt !important; }
+  h2 { font-size: 22pt !important; }
+  h3 { font-size: 16pt !important; }
+  h4 { font-size: 13pt !important; }
+  h5 { font-size: 12pt !important; }
+  p, li { font-size: 10.5pt !important; }
+
+  /* ── Grids y layout ── */
+  .diagnostico-grid,
+  .web-grid,
+  .crm-grid,
+  .porque-grid {
+    grid-template-columns: 1fr !important;
+    gap: 16pt !important;
+  }
+
+  .lineas-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12pt !important;
+  }
+
+  .etapas-grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 10pt !important;
+  }
+
+  .marketing-grid {
+    grid-template-columns: 1fr 1fr 1fr !important;
+    gap: 10pt !important;
+  }
+
+  .eco-layers {
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 8pt !important;
+  }
+
+  .proximos-grid {
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 8pt !important;
+  }
+
+  /* ── Cards ── */
+  .card,
+  .etapa-card,
+  .mkt-pillar,
+  .crm-module,
+  .opp-card,
+  .proximo-card {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    box-shadow: none !important;
+  }
+
+  /* ── Botones ── */
+  .btn {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* ── Links: mostrar URL ── */
+  a[href]::after {
+    content: ' (' attr(href) ')';
+    font-size: 8pt;
+    color: #7A94A8;
+  }
+
+  a[href^="#"]::after {
+    content: '' !important;
+  }
+
+  /* ── Portada impresión ── */
+  .portada__inner {
+    padding: 48pt 0 !important;
+  }
+
+  .portada__glow,
+  .portada__glow-2,
+  .portada__geo {
+    display: none !important;
+  }
+
+  /* ── Mockup web: simplificar ── */
+  .web-mockup {
+    box-shadow: none !important;
+    border: 1px solid #D8E4EF !important;
+  }
+
+  /* ── Sticky header eliminado ── */
+  .porque-statement {
+    position: static !important;
+  }
+
+  /* ── Footer ── */
+  .dossier-footer {
+    background: #080F1A !important;
+  }
+
+  /* ── Page size ── */
+  @page {
+    size: A4;
+    margin: 12mm 10mm;
+  }
+
+  @page :first {
+    margin: 0;
+  }
+}
