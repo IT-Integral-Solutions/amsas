@@ -536,6 +536,8 @@
 
 .nav-logo--right {
   order: 99;   /* siempre al final del flex */
+  height: 150px;
+  width: auto;
 }
 
 .nav-links {
